@@ -1,0 +1,6 @@
+c:\users\alexsander-oobj\documents\visual studio 2017\Projects\MoveFiles\MoveFiles\bin\Debug\MoveFiles.exe.config
+c:\users\alexsander-oobj\documents\visual studio 2017\Projects\MoveFiles\MoveFiles\bin\Debug\MoveFiles.exe
+c:\users\alexsander-oobj\documents\visual studio 2017\Projects\MoveFiles\MoveFiles\bin\Debug\MoveFiles.pdb
+c:\users\alexsander-oobj\documents\visual studio 2017\Projects\MoveFiles\MoveFiles\obj\Debug\MoveFiles.csprojResolveAssemblyReference.cache
+c:\users\alexsander-oobj\documents\visual studio 2017\Projects\MoveFiles\MoveFiles\obj\Debug\MoveFiles.exe
+c:\users\alexsander-oobj\documents\visual studio 2017\Projects\MoveFiles\MoveFiles\obj\Debug\MoveFiles.pdb
