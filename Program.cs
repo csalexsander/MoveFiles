@@ -22,19 +22,20 @@ namespace MoveFiles
                 int ultimo = 0;
                 while (restante > 0)
                 {
-                    int valor = (restante - 3000) > 0 ? 3000 : (3000 - restante);
+                    int valor = (restante - 10000) > 0 ? 10000 : (10000 - restante);
                     restante -= valor;
                     Console.WriteLine("Iniciando Copia dos Arquivos, Cerca de "+ restante + " restantes");
                     for (int i = 0; i < valor; i++)
                     {
                         Log.IniciandoCopia(files[ultimo]);
                         string destino = Path.Combine(diretorioDestino, FileName(files[ultimo]));
-                        File.Move(files[ultimo], destino);
+                        File.Copy(files[ultimo], destino,true);
+                        File.Delete(files[ultimo]);
                         Log.FinalzandoCopia(FileName(files[ultimo]) + "PARA " + diretorioDestino);
                         ultimo++;
                     }
-                    Console.WriteLine("Pausa de 30 Segundos");
-                    Thread.Sleep(30000);
+                    Console.WriteLine("Pausa de 0 Segundos");
+                    Thread.Sleep(1);
                 }
 
 
